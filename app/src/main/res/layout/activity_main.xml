@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.moksleivis.loginscreen.MainActivity">
+
+    <!--Title of app-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User registration system"
+        android:textSize="80px"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="@color/textColor"
+        />
+
+    <!--Image for some looks-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/monero"
+        android:maxWidth="200px"
+        android:minWidth="200px"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"/>
+
+    <!--Username label and field-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textColor="@color/textColor"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etUsernameHint"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/textHintColor"
+        />
+
+    <!--Password label and field-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textColor="@color/textColor"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etPasswordHint"
+        android:textColorHint="@color/textHintColor"
+        android:textColor="@color/textColor"
+        android:inputType="textPassword"
+        />
+
+    <CheckBox
+        android:id="@+id/cbRememebrMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cbRememberMe"
+        android:textColor="@color/textColor"
+        android:buttonTint="@color/textColor"
+        android:layout_marginBottom="5dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btnLogin"
+            android:textColor="@color/textColor"
+            android:background="@color/btnLogin"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/btnRegister"
+            android:textColor="@color/textColor"
+            android:background="@color/btnRegister"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

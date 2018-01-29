@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginScreen</string>
+    <string name="etUsernameHint">Enter your username</string>
+    <string name="etPasswordHint">Enter your password</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnRegister">Register</string>
+    <string name="cbRememberMe">Remember Me</string>
+    <string name="loginToolbar">User info:</string>
+
+
+    <!--Register-->
+    <string name="btnCancel">Cancel</string>
+</resources>

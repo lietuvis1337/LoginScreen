@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/add"
+        android:title="Add"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/add"
+        android:fillColor="@color/textColor"
+        />
+
+
+
+
+    <item android:id="@+id/delete"
+        android:title="Delete"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/delete"
+        android:fillColor="@color/textColor"
+        />
+
+
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/search"
+        android:fillColor="@color/textColor"
+        />
+
+    <item android:id="@+id/logout"
+        android:title="Log out"
+        app:showAsAction="never"
+        android:icon="@drawable/logout"
+        android:fillColor="@color/textColor"/>
+
+
+</menu>
